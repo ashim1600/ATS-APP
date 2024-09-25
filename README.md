@@ -26,3 +26,16 @@
    ```bash
    python app.py
    ```
+
+## Using the ATS System with Streamlit
+
+1. Make sure the conda environment is activated:
+   ```bash
+   conda activate ats-app
+   ```
+2. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+3. In the Streamlit interface, upload a PDF file and enter the job description text.
+4. The application will display the similarity score between the PDF content and the job description.
